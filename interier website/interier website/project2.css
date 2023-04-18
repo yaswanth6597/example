@@ -1,0 +1,152 @@
+body{
+    overflow-x: hidden;
+}
+.sidenav{
+    display: none;
+   
+}
+
+.icons{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2em;
+    
+}
+
+.fab{
+    cursor: pointer;
+}
+
+.releted h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2em;
+}
+
+.images{
+    width: 100%;
+    cursor: pointer;
+}
+
+.images img{
+    width: 100%;
+   
+}
+
+
+@media only screen and  (min-width:1024px){
+
+    .sidenav img{
+        width: 400px;
+        margin-top: 3em;
+        margin-left: -6.5em;
+    }
+    .sidenav{
+        position:absolute;
+        display: block;
+        width: 12em;
+        height: 100%;
+        background-color:#34495E;
+        z-index: 1;
+        margin-top: -1em;
+        position: fixed;
+        
+    }
+
+    .sidenav ul{
+        margin-top: 6em;
+        margin-left: 0.1em;
+    }
+
+    .sidenav ul li{
+        list-style: none;
+        margin: 10px;
+
+    }
+
+    .sidenav ul li a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+
+    .navbar-brand{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+.we{  
+    color: white;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.hr{
+   width: 12em;
+   height: 10px;
+   background-color: white;
+}
+
+
+.caro{
+
+ width: 75%;
+ margin-left: 13.5em;
+ 
+}
+
+.caro #carouselExampleControls{
+    width: auto;
+}
+
+.fab{
+    
+        font-size: 30px;
+        margin-left:0.9em;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+  
+    .fab:hover{
+        color:red;
+    }
+
+    .images{
+        cursor: pointer;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 13.5em;
+        border-radius: 2px;
+    }
+    
+    .images img{
+        width: 400px;
+        margin: 10px;
+    }
+
+
+}
+
+
+@media only screen and  (min-width:1920px){
+
+    .caro{
+
+        width: 80%;
+        margin-left: 17em;
+        
+       }
+       
+       .caro #carouselExampleControls{
+           width: auto;
+       }
+
+}
+
+

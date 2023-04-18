@@ -1,0 +1,142 @@
+body{
+    overflow-x: hidden; 
+   
+ }
+ 
+ 
+ .sidenav{
+     display: none;
+ }
+
+ .profile h2{
+     font-size: 30px;
+     font-family: 'Courier New', Courier, monospace;
+     margin-left: 1em;
+     margin-top: 2em;
+ }
+
+ .profile{
+     width: 100%;
+ }
+
+ .profile p{
+     width:100%;
+     padding: 1em;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media only screen and  (min-width:1024px){
+ 
+    .sidenav img{
+        width: 400px;
+        margin-top: 3em;
+        margin-left: -6.5em;
+    }
+ 
+     .sidenav{
+         position:absolute;
+         display: block;
+         width: 12em;
+         height: 100%;
+         background-color:#34495E;
+         z-index: 1;
+         margin-top: -1em;
+         
+     }
+ 
+     .sidenav ul{
+         margin-top: 6em;
+         margin-left: 0.1em;
+     }
+ 
+     .sidenav ul li{
+         list-style: none;
+         margin: 10px;
+ 
+     }
+ 
+     .sidenav ul li a{
+         font-size: 20px;
+         color: white;
+         text-decoration: none;
+         font-family: 'Courier New', Courier, monospace;
+     }
+ 
+ 
+ 
+     .navbar-brand{
+         display: none;
+     }
+ 
+     .nav-item{
+         display: none;
+     }
+ 
+ .we{  
+     color: white;
+     text-align: center;
+     padding-top: 5em;
+ }
+ 
+ .hr{
+    width: 12em;
+    height: 10px;
+    background-color: white;
+ }
+
+ h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+}
+
+.profile{
+    width: 100%;
+}
+
+.profile p{
+    width: 800px;
+    padding: 1em;
+    margin-left: 12em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fab {
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .fab:hover {
+    color: white;
+  }
+
+
+ 
+ 
+     
+       
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
